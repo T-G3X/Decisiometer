@@ -1,88 +1,855 @@
-body{
-   background-color: black;
-   color : #AAAAAA;
-   background-image: url(../img/direction.png);
-   background-attachment: fixed;
-   background-repeat: no-repeat;
-   background-position: center;
-}
+/*------------------------Portrait-----------------------------*/
+/*- iPhone XSmax; XR ; 11; 11 Pro Max ,8 Plus; 6S Plus; 6 Plus -*/
+/*----------------------Largeur 375px --------------------------*/
+/*--------------------------------------------------------------*/
 
-h1 {
-   position: relative;
-   top: -20px;
-   text-align: center;
-   font-size: 50px;
-   font-style: normal;
-   font-weight: 800;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-#question {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   top: -10px;
-   margin : auto;
-   width: 926px;
-   height: 106px;
-   font-size : 40px;
-   font-weight: 600;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   text-align: center; 
-   color: #DDDD33;
-   
-}
-
-p {
-   
-   top: 510px;
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   
+@media (width: 375px){
+  
+   body{
+      background-color: black;
+      color : #AAAAAA;
+      background-image: url(../img/direction.png);
+      background-size: 100%;
+      max-height: 70%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+ 
+   h1 {
+      position: relative;
+      top: 0px;
+      text-align: center;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 800;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    }
 
-#meeting{
-   background-color: transparent;
-   max-width: 20%;
-   filter: 
+   #question {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      top: 20px;
+      margin : auto;
+      width: 300px;
+      height: 80px;
+      font-size : 20px;
+      font-weight: 600;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center; 
+      color: #DDDD33;
+   }
+
+   p {
+      position: relative;
+      top: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      }
+
+   #meeting{
+      background-color: transparent;
+      max-width: 20%;
+   }
+
+   button
+   {
+       color: white;
+       opacity: .8;
+       padding: 4px;
+       border-width: 0;
+       border-radius: 15px;
+       font-size: 0.5em;
+       font-weight: 500;
+       width: 100px;
+   }
+
+   button:hover
+   {
+      opacity: .7;
+   }
+
+   #oui {
+      background-color: rgba(52, 159, 49, 1);
+      margin-right: 20px;
+      margin-top: 75px; 
+      font-size: 20px;
+   }  
+   
+   #non {
+      background-color: rgba(255, 19, 8, 1);
+      margin-left:20px;
+      margin-top: 75px;
+      font-size: 20px;
+   }
+
+   footer{
+      position:absolute;
+      right: 10px;
+      bottom:0px;
+   }  
+}
+
+/*------------------------Landscape-----------------------------*/
+/*-------- iPhone X; iPhone XS; ; 11; 11 Pro ;8 ; 6S ; 6 -------*/
+/*----------------------Largeur 667px --------------------------*/
+/*--------------------------------------------------------------*/
+
+@media (width: 667px){
+
+   body{
+      background-color: black;
+      color : #AAAAAA;
+      background-image: url(../img/direction.png);
+      background-size: 65%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+
+   h1 {
+      position: relative;
+      top: -20px;
+      text-align: center;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 800;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+
+   #question {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      top: -30px;
+      margin : auto;
+      width: 400px;
+      height: 80px;
+      font-size : 22px;
+      font-weight: 600;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center; 
+      color: #DDDD33;
+   }
+
+   p {
+      position: relative;
+      top: -105px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      }
+
+   #meeting{
+      background-color: transparent;
+      max-width: 20%;
+   }
+
+   button
+   {
+       color: white;
+       opacity: .8;
+       padding: 4px;
+       border-width: 0;
+       border-radius: 15px;
+       font-size: 0.5em;
+       font-weight: 500;
+       width: 100px;
+   }
+
+   button:hover
+   {
+      opacity: .7;
+   }
+
+   #oui {
+      background-color: rgba(52, 159, 49, 1);
+      margin-right: 25px;
+      margin-top: 75px; 
+      font-size: 20px;
+   }  
+
+   #non {
+      background-color: rgba(255, 19, 8, 1);
+      margin-left:25px;
+      margin-top: 75px;
+      font-size: 20px;
+   }
+
+   footer{
+      position:absolute;
+      right: 0px;
+      bottom:52px;
+   }  
+}
+
+/*------------------------Landscape-----------------------------*/
+/*- iPhone XSmax; XR ; 11; 11 Pro Max ,8 Plus; 6S Plus; 6 Plus -*/
+/*----------------------Largeur 808px --------------------------*/
+/*--------------------------------------------------------------*/
+
+@media (width: 808px){
+
+   body{
+      background-color: black;
+      color : #AAAAAA;
+      background-image: url(../img/direction.png);
+      background-size: 60%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+
+   h1 {
+      position: relative;
+      top: -15px;
+      text-align: center;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 800;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+
+   #question {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      top: -15px;
+      margin : auto;
+      width: 500px;
+      height: 80px;
+      font-size : 25px;
+      font-weight: 600;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center; 
+      color: #DDDD33;
+   }
+  
+   p {
+      position: relative;
+      top: -90px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+   }
+
+   #meeting{
+      background-color: transparent;
+      max-width: 20%;
+   }
+
+   button
+   {
+       color: white;
+       opacity: .8;
+       padding: 4px;
+       border-width: 0;
+       border-radius: 15px;
+       font-size: 0.5em;
+       font-weight: 500;
+       width: 100px;
+   }
+
+   button:hover
+   {
+      opacity: .7;
+   }
+
+   #oui {
+      background-color: rgba(52, 159, 49, 1);
+      margin-right: 30px;
+      margin-top: 75px; 
+      font-size: 20px;
+   }  
+
+   #non {
+      background-color: rgba(255, 19, 8, 1);
+      margin-left:30px;
+      margin-top: 75px;
+      font-size: 20px;
+   }
+
+   footer{
+      position:absolute;
+      right: 0px;
+      bottom:80px;
+   }  
+}
+
+/*------------------------------------------------------------------------*/
+/*-----------------------Largeur max de 414px-----------------------------*/
+/*------iPhone XSmax; XR ; 11 ,8 plus; 6S plus; 6 plus;11 pro max---------*/
+/*------------------------------------------------------------------------*/
+
+@media (width: 414px){
+
+   body{
+      background-color: black;
+      color : #AAAAAA;
+      background-image: url(../img/direction.png);
+      background-size: 100%;
+      max-height: 70%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+   
+   h1 {
+      position: relative;
+      top: 0px;
+      text-align: center;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 800;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+
+   
+
+   #question {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      top: 50px;
+      margin : auto;
+      width: 400px;
+      height: 80px;
+      font-size : 20px;
+      font-weight: 600;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center; 
+      color: #DDDD33;
+   }
+
+   p {
+      position: relative;
+      top: 80px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      }
+
+   #meeting{
+      background-color: transparent;
+      max-width: 20%:
+   }
+  
+   button
+   {
+       color: white;
+       opacity: .8;
+       padding: 4px;
+       border-width: 0;
+       border-radius: 15px;
+       font-size: 0.5em;
+       font-weight: 500;
+       width: 100px;
+   }
+
+   button:hover
+   {
+      opacity: .7;
+   }
+
+   #oui {
+      background-color: rgba(52, 159, 49, 1);
+      margin-right: 30px;
+      margin-top: 75px; 
+      font-size: 20px;
+   }  
+
+   
+
+   #non {
+      background-color: rgba(255, 19, 8, 1);
+      margin-left:30px;
+      margin-top: 75px;
+      font-size: 20px;
+   }
+
+   footer{
+      position:absolute;
+      right: 10px;
+      bottom:0px;
+   }  
+
+}
+
+/*-------------------------------*/
+/*--Largeur entre 641px et 799px-*/
+/*-------------------------------*/
+@media (min-width: 668px) and (max-width: 799px) {
+   body{
+      background-color: red;
+      color : #AAAAAA;
+      background-image: url(../img/direction.png);
+      background-size:  51%;
+      max-height: 170%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+   
+   h1 {
+      position: relative;
+      top: -20px;
+      text-align: center;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 800;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   
+   #question {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      top: -20px;
+      margin : auto;
+      width: 600px;
+      height: 40px;
+      font-size : 25px;
+      font-weight: 600;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center; 
+      color: #DDDD33;
+      
+   }
+   
+   p {
+      position: relative;
+      top: 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+      }
+   
+   #meeting{
+      background-color: transparent;
+      max-width: 20%;
+      
+   }
+   
+   button
+   {
+       color: white;
+       opacity: .8;
+       padding: 4px;
+       border-width: 0;
+       border-radius: 15px;
+       font-size: 0.5em;
+       font-weight: 500;
+       width: 100px;
+   }
+   button:hover
+   {
+      opacity: .7;
+   }
+   
+   #oui {
+      background-color: rgba(52, 159, 49, 1);
+      margin-right: 60px;
+      margin-top: 75px; 
+      font-size: 20px;
+      
+      
+   }  
+   
+   #non {
+      background-color: rgba(255, 19, 8, 1);
+      margin-left:60px;
+      margin-top: 75px;
+      font-size: 20px;
+   }
+   
+   footer{
+      position:absolute;
+      right: 10px;
+      bottom:0px;
+   }  
+}
+
+/*-------------------------------*/
+/* Largeur entre 809px et 900px*/
+/*-------------------------------*/
+@media (min-width: 809px) and (max-width: 900px){
+   body{
+      background-color: black;
+      color : #AAAAAA;
+      background-image: url(../img/direction.png);
+      background-size:  65%;
+      max-height: 170%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+   
+   h1 {
+      background-color: black;
+      position: relative;
+      top: -15px;
+      text-align: center;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 800;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   
+   #question {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      top: -20px;
+      margin : auto;
+      width: 600px;
+      height: 40px;
+      font-size : 30px;
+      font-weight: 600;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center; 
+      color: #DDDD33;
+      
+   }
+   
+   p {
+      position: relative;
+      top: -50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+      }
+   
+   #meeting{
+      background-color: transparent;
+      max-width: 20%;
+      
+   }
+   
+   button {
+       position: relative;
+       top: 50px;
+       color: white;
+       opacity: .8;
+       padding: 4px;
+       border-width: 0;
+       border-radius: 15px;
+       font-size: 0.5em;
+       font-weight: 500;
+       width: 100px;
+   }
+   button:hover
+   {
+      opacity: .7;
+   }
+   
+   #oui {
+      background-color: rgba(52, 159, 49, 1);
+      margin-right: 40px;
+      margin-top: 75px; 
+      font-size: 20px;
+      
+      
+   }  
+   
+   #non {
+      background-color: rgba(255, 19, 8, 1);
+      margin-left:40px;
+      margin-top: 75px;
+      font-size: 20px;
+   }
+   
+   footer{
+      position:absolute;
+      right: 10px;
+      bottom:0px;
+   }
+   
    
 }
 
-button
-{
-    color: white;
-    opacity: .8;
-    padding: 5px;
-    border-width: 0;
-    border-radius: 15px;
-    font-size: 1.5em;
-    font-weight: 500;
-    width: 150px;
-}
-button:hover
-{
-   opacity: .7;
-}
-
-#oui {
-   background-color: rgba(52, 159, 49, 1);
-   margin-right: 80px;
-   margin-top: 75px; 
-   font-size: 30px;
+/*-------------------------------*/
+/* Largeur entre 1000px et 1299px*/
+/*-------------------------------*/
+@media (min-width: 1000px) and (max-width: 1299px){
+   body{
+      background-color: black;
+      color : #AAAAAA;
+      background-image: url(../img/direction.png);
+      background-size:  51%;
+      max-height: 170%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+   
+   h1 {
+      position: relative;
+      top: -20px;
+      text-align: center;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 800;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   
+   #question {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      top: -20px;
+      margin : auto;
+      width: 600px;
+      height: 40px;
+      font-size : 25px;
+      font-weight: 600;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center; 
+      color: #DDDD33;
+      
+   }
+   
+   p {
+      position: relative;
+      top: -10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+      }
+   
+   #meeting{
+      background-color: transparent;
+      max-width: 20%;
+      
+   }
+   
+   button
+   {
+       color: white;
+       opacity: .8;
+       padding: 4px;
+       border-width: 0;
+       border-radius: 15px;
+       font-size: 0.5em;
+       font-weight: 500;
+       width: 100px;
+   }
+   button:hover
+   {
+      opacity: .7;
+   }
+   
+   #oui {
+      background-color: rgba(52, 159, 49, 1);
+      margin-right: 60px;
+      margin-top: 75px; 
+      font-size: 20px;
+      
+      
+   }  
+   
+   #non {
+      background-color: rgba(255, 19, 8, 1);
+      margin-left:60px;
+      margin-top: 75px;
+      font-size: 20px;
+   }
+   
+   footer{
+      position:absolute;
+      right: 10px;
+      bottom:0px;
+   }
    
    
-}  
-
-#non {
-   background-color: rgba(255, 19, 8, 1);
-   margin-left:80px;
-   margin-top: 75px;
-   font-size: 30px;
 }
 
-footer{
-   position:absolute;
-   right: 10px;
-   bottom:0px;
+/*-------------------------------*/
+/*--------Largeur 1366px---------*/
+/*-------------------------------*/
+@media (width: 1366px) /*(min-width: 1366px) and (max-width: 1366px)*/ {
+   body{
+      background-color: black;
+      color : #AAAAAA;
+      background-image: url(../img/direction.png);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 55%;
+   }
+   
+   h1 {
+      position: relative;
+      top: -30px;
+      text-align: center;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 800;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   
+   #question {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      top: -40px;
+      margin : auto;
+      width: 700px;
+      height: 106px;
+      font-size : 30px;
+      font-weight: 600;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center; 
+      color: #DDDD33; 
+   }
+   
+   p {
+      position: relative;
+      top: -80px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      }
+   
+   #meeting {
+      background-color: transparent;
+      max-width: 20%;
+   }
+   
+   button {
+       color: white;
+       opacity: .8;
+       padding: 5px;
+       border-width: 0;
+       border-radius: 15px;
+       font-size: 1.5em;
+       font-weight: 500;
+       width: 150px;
+   }
+   
+   button:hover {
+      opacity: .7;
+   }
+   
+   #oui {
+      background-color: rgba(52, 159, 49, 1);
+      margin-right: 60px;
+      margin-top: 75px; 
+      font-size: 30px; 
+   }  
+   
+   #non {
+      background-color: rgba(255, 19, 8, 1);
+      margin-left:60px;
+      margin-top: 75px;
+      font-size: 30px;
+   }
+   
+   footer{
+      position:absolute;
+      right: 10px;
+      bottom:0px;
+   }
+}
+  
+/*-------------------------------*/
+/*------Largeur min 1440px-------*/
+/*-------------------------------*/
+@media (width: 1440px) {
+   body{
+      background-color: black;
+      color : #AAAAAA;
+      background-image: url(../img/direction.png);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+   
+   h1 {
+      position: relative;
+      top: -40px;
+      text-align: center;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 800;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   
+   #question {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      top: -40px;
+      margin : auto;
+      width: 826px;
+      height: 106px;
+      font-size : 40px;
+      font-weight: 600;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center; 
+      color: #DDDD33;
+   }
+   
+   p {
+      position:relative;
+      top: -40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      }
+   
+   #meeting{
+      background-color: transparent;
+      max-width: 20%; 
+   }
+
+   button
+   {
+       color: white;
+       opacity: .8;
+       padding: 5px;
+       border-width: 0;
+       border-radius: 15px;
+       font-size: 1.5em;
+       font-weight: 500;
+       width: 150px;
+   }
+
+   button:hover
+   {
+      opacity: .7;
+   }
+   
+   #oui {
+      background-color: rgba(52, 159, 49, 1);
+      margin-right: 70px;
+      margin-top: 75px; 
+      font-size: 30px;
+   }  
+   
+   #non {
+      background-color: rgba(255, 19, 8, 1);
+      margin-left:70px;
+      margin-top: 75px;
+      font-size: 30px;
+   }
+   
+   footer{
+      position:absolute;
+      right: 10px;
+      bottom:0px;
+   }
 }
